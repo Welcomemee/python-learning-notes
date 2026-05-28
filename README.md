@@ -1,15 +1,15 @@
-✅ 📄 FULL README TEMPLATE (Python Quick Revision Notes)
+✅ 📄 FULL README TEMPLATE (  Quick Revision Notes)
 
 markdown
-# Python Learning Notes 🐍
+#   Learning Notes 🐍
 
-Welcome to my Python learning repository!
+Welcome to my   learning repository!
 This repo contains my quick revision notes, examples, and progress.
 
 ---
 
 ## 🎯 Goal
-- Learn Python from basics to advanced
+- Learn   from basics to advanced
 - Build projects
 - Prepare for interviews
 
@@ -25,7 +25,7 @@ This repo contains my quick revision notes, examples, and progress.
 
 ---
 
-# 🧠 Python Quick Revision Notes
+# 🧠   Quick Revision Notes
 
 ---
 
@@ -34,16 +34,15 @@ This repo contains my quick revision notes, examples, and progress.
 ### Variables
 - Used to store data
 
- python
+  
 x = 10
 name = "Mukesh"
- `
-
+ 
 ### Data Types
 
 * int, float, str, list, tuple, dict, set
 
- python
+  
 a = 5        # int
 b = 5.5      # float
 c = "hello"  # string
@@ -51,7 +50,7 @@ c = "hello"  # string
 
 ### Input & Output
 
- python
+  
 name = input("Enter name: ")
 print(name)
  
@@ -64,7 +63,7 @@ print(name)
 * Comparison: ==, !=, >, <
 * Logical: and, or, not
 
- python
+  
 print(5 > 3)   # True
  
 
@@ -72,7 +71,7 @@ print(5 > 3)   # True
 
 ## 🟡 Conditions
 
- python
+  
 x = 10
 
 if x > 5:
@@ -89,14 +88,14 @@ else:
 
 ### For Loop
 
- python
+  
 for i in range(5):
     print(i)
  
 
 ### While Loop
 
- python
+  
 i = 0
 while i < 5:
     print(i)
@@ -109,7 +108,7 @@ while i < 5:
 
 * Reusable block of code
 
- python
+  
 def add(a, b):
     return a + b
 
@@ -122,27 +121,27 @@ print(add(2, 3))
 
 ### List
 
- python
+  
 nums = [1, 2, 3]
 nums.append(4)
  
 
 ### Tuple
 
- python
+  
 t = (1, 2, 3)
  
 
 ### Dictionary
 
- python
+  
 d = {"name": "Mukesh", "age": 25}
 print(d["name"])
  
 
 ### Set
 
- python
+  
 s = {1, 2, 3}
  
 
@@ -152,7 +151,7 @@ s = {1, 2, 3}
 
 ### Class & Object
 
- python
+  
 class Person:
     def __init__(self, name):
         self.name = name
@@ -163,7 +162,7 @@ print(p1.name)
 
 ### Inheritance
 
- python
+  
 class Student(Person):
     pass
  
@@ -172,7 +171,7 @@ class Student(Person):
 
 ## 📂 File Handling
 
- python
+  
 # Write
 with open("file.txt", "w") as f:
     f.write("Hello")
@@ -186,7 +185,7 @@ with open("file.txt", "r") as f:
 
 ## 📚 Exception Handling
 
- python
+  
 try:
     x = int(input())
 except:
@@ -197,7 +196,7 @@ except:
 
 ## 📦 Modules & Libraries
 
- python
+  
 import math
 
 print(math.sqrt(16))
@@ -207,7 +206,7 @@ print(math.sqrt(16))
 
 ## 🧪 List Comprehension
 
- python
+  
 nums = [x for x in range(5)]
  
 
@@ -215,7 +214,7 @@ nums = [x for x in range(5)]
 
 ## 🔄 Lambda Function
 
- python
+  
 add = lambda a, b: a + b
 print(add(2, 3))
  
@@ -224,7 +223,7 @@ print(add(2, 3))
 
 ## 🎯 Useful Built-in Functions
 
- python
+  
 len([1,2,3])
 type(10)
 range(5)
